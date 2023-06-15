@@ -8,14 +8,14 @@
   "dependencies": {
     "fs-extra": "^11.1.1",
     "lodash": "4.17.21",
-    "strapi-utils": "github:game-school/strapi-utils"
+    "strapi-utils": "ssh://git@github.com/game-school/strapi-utils.git"
   },
   "scripts": {
     "test": "echo \"no tests yet\""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/game-school/strapi-generate-plugin.git"
+    "url": "git+ssh://git@github.com/game-school/strapi-generate-plugin.git"
   },
   "engines": {
     "node": ">=10.16.0 <=18.x.x",
